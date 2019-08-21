@@ -29,13 +29,13 @@ namespace Registro
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            string name = User.Text;
+            string names = User.Text;
             string Pass = Password.Text;
-            if(name=="Juancho")
+            if(names=="Juancho")
             {
                 if(Pass=="123tamarindo")
                 {
-                    MessageBox.Show("Bienvenido " + name);
+                    MessageBox.Show("Bienvenido " + names);
                 }
             }
             else
